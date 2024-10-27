@@ -4,7 +4,6 @@ for (i=0;i<6;i++){
 }
 let dogs_ordered = dogs.sort().reverse()
 
-let displayListItems;
 const container = document.querySelector("ul");
 
 for (i=0;i<dogs_ordered.length; i++){
